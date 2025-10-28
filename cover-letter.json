@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://schema.jakelabate.com/cover-letter.schema.json",
+  "$id": "https://github.com/JakeLabate/Schema-JSONs/blob/main/cover-letter.json",
   "title": "CoverLetter",
   "description": "A structured representation of a cover letter for a job application.",
   "type": "object",
