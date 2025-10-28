@@ -5,7 +5,7 @@
   "description": "A structured representation of a cover letter for a job application.",
   "type": "object",
   "properties": {
-    "1liner": {
+    "line1": {
       "type": "string",
       "description": "A short introductory sentence summarizing your interest or qualification."
     },
@@ -22,11 +22,11 @@
       "description": "Third main paragraph — connects your goals with the company's mission or closes the pitch."
     }
   },
-  "required": ["1liner", "paragraph1", "paragraph2", "paragraph3"],
+  "required": ["line1", "paragraph1", "paragraph2", "paragraph3"],
   "additionalProperties": false,
   "examples": [
     {
-      "1liner": "As a Senior SEO Analyst passionate about structured data innovation, I'm excited to apply for this opportunity.",
+      "line1": "As a Senior SEO Analyst passionate about structured data innovation, I'm excited to apply for this opportunity.",
       "paragraph1": "Over the past several years, I’ve developed and implemented advanced SEO frameworks that blend data science, automation, and user intent modeling.",
       "paragraph2": "At Wayfair, I led initiatives improving schema markup deployment through API-driven automation, resulting in measurable gains in rich result visibility and CTR.",
       "paragraph3": "I’m particularly drawn to your team’s focus on technical excellence and innovation, and I believe my background aligns perfectly with your goals.",
